@@ -1,0 +1,61 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 12px 0 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5d6f2;
+  width: 250px; /* Adjust the width as needed */
+  height: max-content; /* Adjust the height as needed */
+  border: 2px solid black;
+  border-radius: 10px; /* Add some curvature to the edges */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.styledButton {
+  background-color: #4CAF50; /* Green */
+  font-size: 12px;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1888c9;
+  height: 100vh;
+}
+
+.win-div img{
+  width: 20px; /* Ensure the image fills the container */
+  height: 10px;
+}
+.win-div{
+  background-color: aliceblue;
+  color: white;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
